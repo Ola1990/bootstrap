@@ -1,0 +1,8 @@
+.item {
+    height: 300px;
+    background-color: aqua;
+}
+
+.item:nth-child(2n) {
+    background-color: blueviolet;
+}
