@@ -61,6 +61,17 @@ h1 {
 #title-services {
     text-align: center;
 }
+.fas, .far  {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.fas:hover {
+    transform: rotate(360deg);
+}
+
 
 
  
