@@ -111,6 +111,28 @@ p {
 .inside-box {
     overflow: hidden;
 }
-
+.blue-mask {
+    position: relative;
+    background-color: rgba(14, 216, 214, 0);
+    height: 50vh;
+    transition-duration: 0.5s;
+}
+.blue-mask:hover {
+  background-color: rgba(14, 216, 214, 0.5);  
+}
+.plus {
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s;
+}
+.blue-mask:hover .plus {
+    opacity: 1;
+}
 
  
