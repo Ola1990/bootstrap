@@ -58,7 +58,7 @@ h1 {
   border-radius: 50%;
   margin: auto;
 }    
-#title-services, #title-portfolio {
+#title-services, #title-portfolio, #title-team {
     text-align: center;
 }
 .fas, .far  {
@@ -115,7 +115,7 @@ p {
     position: relative;
     background-color: rgba(14, 216, 214, 0);
     height: 50vh;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 .blue-mask:hover {
   background-color: rgba(14, 216, 214, 0.5);  
@@ -133,6 +133,72 @@ p {
 }
 .blue-mask:hover .plus {
     opacity: 1;
+}
+#portfolio {
+    background-color: #f7f7f7;
+}
+.paragraphs {
+    background-color: white;
+    margin: 0;
+}
+.title-image {
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.under-image {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.team-person {
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 70px;
+}
+#team-person1 {
+    background-image: url(../img/team/man-1.jpg);
+}
+#team-person2 {
+    background-image: url(../img/team/man-2.jpg);
+}
+#team-person3 {
+    background-image: url(../img/team/woman-1.jpg);
+}
+.icons {
+    position: relative;
+}
+.icons1 {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    
+}
+.fab {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%, -50%);
+    
+}
+#team {
+    text-align: center;
+}
+.icons1:hover {
+    background-color: #0ed8d6;
+}
+#team-footer {
+   padding: 40px;
 }
 
  
