@@ -63,13 +63,21 @@ h1 {
 }
 .fas, .far  {
     position: absolute;
-    top: 50%;
-    left: 48%;
-    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 15%;
+    transform: translate(-50%, -50%), rotate(0deg);
+    transition-duration: 1s;
 }
 
-.fas:hover {
+
+.fas:hover, .far:hover {
     transform: rotate(360deg);
+}
+p {
+    text-align: center;
+}
+.title-icons {
+    font-size: 1.5rem;
 }
 
 
