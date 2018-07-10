@@ -1,0 +1,72 @@
+header {
+    background-image: url(../img/header-background.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+nav {
+    background-color: white;
+}
+span {
+    color: green;
+}
+h1, #paragraph-header {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: green;
+}
+#div-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#about-me, #my-skills, #portfolio {
+    text-align: center;
+}
+#img1 {
+    height: 80vh;
+    width: 70%;
+}
+h2, h3, h4 {
+    padding: 20px;
+}
+#background-portfolio1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+#background-portfolio2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+#background-portfolio3 {
+    background-image: url(../img/portfolio4.jpg);
+}
+
+.image-portfolio {
+    height: 50vh;
+    width: 100%;
+}
+.inside-mask {
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+}
+.mask {
+    padding: 20px;
+    background-color: rgb(5, 141, 254, 0);
+    height: 50vh
+}
+
+.mask:hover {
+    background-color: rgb(5, 141, 254, 0.5);
+}
+.inside-mask:hover {
+    opacity: 1;
+}
+
+
