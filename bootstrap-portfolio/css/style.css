@@ -13,6 +13,7 @@ span {
 }
 h1, #paragraph-header {
     color: white;
+    font-size: 2.5rem;
 }
 .navbar-light .navbar-nav .nav-link {
     color: green;
@@ -30,6 +31,9 @@ h1, #paragraph-header {
 #img1 {
     height: 80vh;
     width: 70%;
+}
+#description {
+    padding: 10px;
 }
 h2, h3, h4 {
     padding: 20px;
@@ -69,4 +73,49 @@ h2, h3, h4 {
     opacity: 1;
 }
 
+#contact {
+    background-color: blue;
+    margin-top: 10px;
+    padding: 20px;
+}
+h5 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+#data {
+    color: white;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+#icons {
+    font-size: 2rem;
+    color: white;
+}
+a {
+    color: white;
+}
+input, textarea {
+    width: 70%;
+    background-color: cyan;
+}
+button {
+    background-color: greenyellow;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    width: 15%;
+}
+button:hover {
+    background-color: white;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+}
+#footer-paragraph {
+    color: white;
+    margin-bottom: 0;
+}
+footer {
+    background-color: darkblue;
+}
 
